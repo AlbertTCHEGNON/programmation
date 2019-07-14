@@ -1,0 +1,70 @@
+Les exercices sont classés par dossier bien normmé avec leurs numéro
+
+
+Exercie1:
+Le programme écrit pour cet exercice est mis dans un dossier nommé exrcice1.
+
+Exercice2:
+
+1/La valeure finale est 101.
+
+2/ La résolution de ce problème se feras par un vérroullage de la mèmoire partagée lorsqu'un processus à accès. Et lorsqu'il fini sont traitement on déverroullée la mémoire pour qu'un autre porrais accédé.
+
+ 
+3/Impémentation de la session 
+Le programme se trouve dans le dossier  exercice2 dont deux fichier source :
+  main.c et w.c
+
+Le programme principal est le main.c
+
+Exercice3
+
+
+1/Les problèmes à résoudre sont:
+  *Créer une mémoire partagée devant contenir un tableau  d'entiers.
+  * Entrée les elements de la matrice dans la mémoire
+   * Utiliser une méthodologie mathématique pouvant aider pour calculer le carré déune matrice.
+   *controler l'ascès des processus à la mémoire partagée
+
+2/Propositions de solutions aux différents problèmes identifiés.
+   Pour la saisie des éléments d'une matrice dans la mémoire, elle sera faite à travers une 
+boucle for et stockée dans un fichier
+Ala fin de la saisie, la matrice s'affichera à l'écran et s'en suivra l'affichage de la matrice carré résultat de notre 
+traitement.
+Le calcul de la matrice carrée sera géré par des processus fils.
+Il y aura autant de processus fils que d'éléments dans la matrice
+
+3/Implementation:
+   Le programme se trouve dans un dossier nommé exercice3.
+
+
+Exercice4:
+
+
+1/Les problèmes à résoudre sont: 
+ *faire la copie d'un fichier du client vers le serveur.
+ *se connecter au serveur
+2/ Pour régler le problème de copie de fichier, il faut que le programme client envoie d'abords le 
+nom du ficheir à copier au serveur qui va le créer en lecture écriture. Ensuite, le client va compter le nombre 
+de caracteres dans le fichier à copier et envoyer tout ces caracteres au serveur. Ensuite, celui ci va les 
+écire dans le fichier qu'il a créer. 
+
+3/ Implémentation du programme.
+Le programme du client est mis dans un dossier nommé client et celui du serveur dans un dossier nommé serveur.
+
+
+Exercice5
+
+
+1/Les problemes à résoudre sont:
+   *la gestion d'envoie de message de façon périodique au serveur
+   *la gestion de l'accès à la mémoire par les deux processus.
+2/    Pour régler le problème de gestion d'envoie de message de façon périodique, 
+    je vais utiliser un signal ALARM qui va se déclencher chaque 10 secondes pour demander
+au client d'envoyer une requete au serveur.
+
+3/Impléméntation :
+Le programme se trouve dans un dossier nommé exercice5
+
+
+ 
